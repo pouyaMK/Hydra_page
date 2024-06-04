@@ -8,8 +8,81 @@
     <link rel="stylesheet" href="../assets/css/main.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 class="text-3xl bg-red-500">hello</h1>
+<body class="h-auto w-full bg-[--purple]">
+    
+    <!-- header -->
+    <header class="w-[90%] py-4 m-auto flex items-center justify-between">
+        <section class="center gap-2">
+            <img src="../assets/img/Vector.png" alt="">
+            <img src="../assets/img/Frame.png" alt="">
+        </section>
+
+        <nav class="[&>*]:text-white flex gap-14 font-bold">
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">TECHNOLOGIES</a>
+            <a href="#">HOW TO</a>
+        </nav>
+
+        <section class="flex gap-8 center font-bold">
+            <a href="#" class="text-white px-7 py-3 rounded-3xl" style="border: 1px solid white;">CONTACT US</a>
+            <a href="#" class="px-7 py-3 rounded-3xl" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8);">JOIN HYDRA</a>
+        </section>
+    </header>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- main -->
+    <main class="w-[90%] m-auto flex items-center justify-between mt-9 p-2">
+        <section id="main-left" class="text-7xl font-extrabold text-white" style="line-height: 95px;">
+            <h1><span id="sp" class="text-[#8176AF]" style="letter-spacing: 4px;">Dive</span> Into The Depths</h1>
+            <h1>Of <span id="sp" style="letter-spacing: 4px;">Virtual Reality</span></h1>
+            <p class="text-lg w-[550px] font-normal my-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore 
+                nisl tincidunt eget. Lectus mauris eros in vitae .
+            </p>
+            <a href="#" class="flex gap-6 items-center my-10">
+                <p class="px-10 py-5  text-xl font-bold text-black" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8); border-radius: 40px;">BUILD YOUR WORLD</p>
+                <img src="../assets/img/shape.png" class="w-[50px] h-[40px]" alt="">
+            </a>
+        </section>
+
+
+
+        <section id="main-right">
+            <img src="../assets/img/Mask group.png" style="filter: drop-shadow(10px 10px 15px #8176AF);" width="640px" alt="">
+        </section>
+    </main>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- information -->
+
+    <section class="w-[85%] mt-10 flex items-center justify-around text-white m-auto h-auto p-4" style="background-image: linear-gradient(to right, #211E2E,#393354, #211E2E); border-radius: 50px;">
+        <div class="center">
+            <img src="../assets/img/location.png" class="mx-3" alt="">
+            <span>
+                <h3 class="font-bold text-xl">Pay Us a Visit</h3>
+                <p style="opacity: 70%;">Union St, Seattle, WA 98101, US</p>
+            </span>
+        </div>
+        <span class="h-[50px] w-[2px] bg-[#8176AF]"></span>
+        <div class="center">
+            <img src="../assets/img/phone.png" class="mx-3" alt="">
+            <span>
+                <h3 class="font-bold text-xl">Give Us a Call</h3>
+                <p style="opacity: 70%;">(110) 1111-1010</p>
+            </span>
+        </div>
+        <span class="h-[50px] w-[2px] bg-[#8176AF]"></span>
+        <div class="center">
+            <img src="../assets/img/sms.png" class="mx-3" alt="">
+            <span>
+                <h3 class="font-bold text-xl">Send Us a Message</h3>
+                <p style="opacity: 70%;">Contact@HydraVTech.com</p>
+            </span>
+        </div>
+    </section>
     
 </body>
 </html>

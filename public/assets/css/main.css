@@ -4,7 +4,9 @@
 
 @layer components {
     :root{
-        --blue_sky : #0E91E3;
+        --purple: #302C42;
+        --por-purple : #8176AF;
+        --kam-purple : #C0B7E8;
         /* all pages */
         overflow-x: hidden;
     }
@@ -17,12 +19,20 @@
 
     @font-face {
         font-family: vazir;
-        src: url(../fonts/Vazir.ttf);
+        src: url(../font/Vazir.ttf);
     }
     .center{
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    /* class="text-[#8176AF]" */
+    #sp{
+        /* background-image: linear-gradient(to right,#8176AF,#C0B7E8) !important; */
+        background-image: -webkit-linear-gradient(45deg,#8176AF,#C0B7E8) !important;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* filter: drop-shadow(5px 5px 5px red); */
+    } 
 
 }
