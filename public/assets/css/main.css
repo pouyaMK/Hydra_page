@@ -33,6 +33,15 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         /* filter: drop-shadow(5px 5px 5px red); */
-    } 
+    }
+
+    #technology{
+        background-image: url("../img/Mask\ group\(4\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        border-radius: 250px;
+    }
+     
 
 }
