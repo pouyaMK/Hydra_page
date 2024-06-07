@@ -620,6 +620,74 @@ video {
   border: 13px solid #8176AF;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
+#contact-us:hover{
+  border: 2px solid #C0B7E8 !important;
+}
+
+/* #join-us:hover{
+        background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+        border: none !important;
+    } */
+
+.join:hover{
+  background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+}
+
+#biuld:hover{
+  text-decoration: underline;
+  color: black;
+  background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+}
+
+/* /////////////////// */
+
+#logos-container > img{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#logos-container > img:hover{
+  scale: 1.1;
+}
+
+#logos-container:hover > img:not(:hover){
+  filter: blur(0.5rem);
+}
+
+/* ////////////////// */
+
+nav > a{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+nav > a:hover{
+  scale: 1.1;
+}
+
+nav:hover > a:not(:hover){
+  filter: blur(0.5rem);
+}
+
+/* //////////////// */
+
+#sec2 > a:hover{
+  color: #C0B7E8;
+}
+
+#sec3 > a:hover{
+  color: #C0B7E8;
+}
+
+.ico > img:hover {
+  transform: translateY(-3px) !important;
+  scale: 1.1;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1003,6 +1071,16 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:text-\[\#C0B7E8\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(192 183 232 / var(--tw-text-opacity));
 }
 
 .\[\&\>\*\]\:text-white>* {

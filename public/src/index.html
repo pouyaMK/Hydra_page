@@ -6,10 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/main.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../assets/css/slider.css">
-
     <!-- swiper css -->
     <link rel="stylesheet" href="../assets/css/cdn.jsdelivr.net_npm_swiper@11.1.4_swiper-bundle.min.js">
   <style>
@@ -26,15 +25,15 @@
         </section>
 
         <nav class="[&>*]:text-white flex gap-14 font-bold">
-            <a href="#">ABOUT</a>
-            <a href="#">SERVICES</a>
-            <a href="#">TECHNOLOGIES</a>
-            <a href="#">HOW TO</a>
+            <a href="#" class="hover:-translate-y-1">ABOUT</a>
+            <a href="#" class="hover:-translate-y-1">SERVICES</a>
+            <a href="#" class="hover:-translate-y-1">TECHNOLOGIES</a>
+            <a href="#" class="hover:-translate-y-1">HOW TO</a>
         </nav>
 
         <section class="flex gap-8 center font-bold">
-            <a href="#" class="text-white px-7 py-3 rounded-3xl" style="border: 1px solid white;">CONTACT US</a>
-            <a href="#" class="px-7 py-3 rounded-3xl" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8);">JOIN HYDRA</a>
+            <a href="#" id="contact-us" class="text-white px-7 py-3 rounded-3xl hover:text-[#C0B7E8]" style="border: 2px solid white;">CONTACT US</a>
+            <a href="#"  class="join px-7 py-3 rounded-3xl" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8);">JOIN HYDRA</a>
         </section>
     </header>
 
@@ -50,7 +49,7 @@
                 nisl tincidunt eget. Lectus mauris eros in vitae .
             </p>
             <a href="#" class="flex gap-6 items-center my-10">
-                <p class="px-10 py-5  text-xl font-bold text-black" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8); border-radius: 40px;">BUILD YOUR WORLD</p>
+                <p id="biuld" class="px-10 py-5  text-xl font-bold text-black" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8); border-radius: 40px;">BUILD YOUR WORLD</p>
                 <img src="../assets/img/shape.png" class="w-[50px] h-[40px]" alt="">
             </a>
         </section>
@@ -280,7 +279,7 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- logos -->
-    <div class="w-[90%] h-auto m-auto p-2 center gap-20 ">
+    <div id="logos-container" class="w-[90%] h-auto m-auto p-2 center gap-20 ">
         <img src="../assets/img/Hydra-Tech1 1.png" alt="">
         <img src="../assets/img/Hydra-Tech2 1.png" alt="">
         <img src="../assets/img/Hydra-Tech3 1.png" alt="">
@@ -373,12 +372,24 @@
         <section id="sec4"  class="center gap-6 flex-col">
             <p>SOCIALIZE WITH HYDRA</p>
             <div id="icons-footer" class="center gap-2">
-                <a href="#"><img src="../assets/img/social-media/facebook.png" alt=""></a>
-                <a href="#"><img src="../assets/img/social-media/twitter.png" alt=""></a>
-                <a href="#"><img src="../assets/img/social-media/linkedin.png" alt=""></a>
-                <a href="#"><img src="../assets/img/social-media/youtube.png" alt=""></a>
-                <a href="#"><img src="../assets/img/social-media/instagram.png" alt=""></a>
-                <a href="#"><img src="../assets/img/social-media/pinterest.png" alt=""></a>
+                <a href="#" class="ico">
+                    <img src="../assets/img/social-media/facebook.png" alt="">
+                </a>
+                <a href="#" class="ico">
+                    <img src="../assets/img/social-media/twitter.png" alt="">
+                </a>
+                <a href="#" class="ico">
+                    <img src="../assets/img/social-media/linkedin.png" alt="">
+                </a>
+                <a href="#" class="ico">
+                    <img  src="../assets/img/social-media/youtube.png" alt="">
+                </a>
+                <a href="#" class="ico">
+                    <img  src="../assets/img/social-media/instagram.png" alt="">
+                </a>
+                <a href="#" class="ico">
+                    <img  src="../assets/img/social-media/pinterest.png" alt="">
+                </a>
             </div>
             <a href="#" class="text-black px-8 py-5 text-sm" style="background-image: linear-gradient(to right, #8176AF,#C0B7E8); border-radius: 30px;">BUILD YOUR WORLD</a>
         </section>
@@ -391,13 +402,6 @@
         <span class="text-white font-bold " style="letter-spacing: 8px;">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </span>
     </div>
     
-
-
-    
-
-    
-
-
     <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 

@@ -62,6 +62,68 @@
         color: #302C42;
         border: 13px solid #8176AF;
     }
+    a:hover{
+        text-decoration: underline;
+    }
+    #contact-us:hover{
+        border: 2px solid #C0B7E8 !important;
+    }
+    /* #join-us:hover{
+        background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+        border: none !important;
+    } */
+
+
+    .join:hover{
+        background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+    }
+
+    #biuld:hover{
+        text-decoration: underline;
+        color: black;
+         background-image: linear-gradient(to right, #8176AF,#C0B7E8) !important;
+    }
      
+    /* /////////////////// */
+    #logos-container > img{
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #logos-container > img:hover{
+        scale: 1.1;
+    }
+
+    #logos-container:hover > img:not(:hover){
+        filter: blur(0.5rem);  
+    }
+
+    /* ////////////////// */
+    nav > a{
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav > a:hover{
+        scale: 1.1;
+    }
+
+    nav:hover > a:not(:hover){
+        filter: blur(0.5rem);  
+    }
+    /* //////////////// */
+    #sec2 > a:hover{
+        color: #C0B7E8;
+    }
+    #sec3 > a:hover{
+        color: #C0B7E8;
+    }
+
+    .ico > img:hover {
+        transform: translateY(-3px) !important;
+        scale: 1.1;
+    }
+
+
 
 }
