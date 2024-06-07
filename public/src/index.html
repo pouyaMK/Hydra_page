@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="../assets/css/slider.css">
     <!-- swiper css -->
     <link rel="stylesheet" href="../assets/css/cdn.jsdelivr.net_npm_swiper@11.1.4_swiper-bundle.min.js">
+    <!-- animate css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
   <style>
     
   </style>
@@ -18,20 +22,20 @@
 <body class="h-auto w-full bg-[--purple]">
     
     <!-- header -->
-    <header class="w-[90%] py-4 m-auto flex items-center justify-between">
-        <section class="center gap-2">
+    <header class="w-[90%] rounded-xl px-2 py-2 pt-2 m-auto flex items-center justify-between sticky top-0 bg-[#302C42]" style="z-index: 1000;">
+        <section class="center gap-2 animated rubberBand"">
             <img src="../assets/img/Vector.png" alt="">
             <img src="../assets/img/Frame.png" alt="">
         </section>
 
         <nav class="[&>*]:text-white flex gap-14 font-bold">
-            <a href="#" class="hover:-translate-y-1">ABOUT</a>
-            <a href="#" class="hover:-translate-y-1">SERVICES</a>
-            <a href="#" class="hover:-translate-y-1">TECHNOLOGIES</a>
-            <a href="#" class="hover:-translate-y-1">HOW TO</a>
+            <a href="#" class="hover:-translate-y-1 animated rotateInUpLeft">ABOUT</a>
+            <a href="#" class="hover:-translate-y-1 animated rotateInUpLeft">SERVICES</a>
+            <a href="#" class="hover:-translate-y-1 animated rotateInUpLeft">TECHNOLOGIES</a>
+            <a href="#" class="hover:-translate-y-1 animated rotateInUpLeft">HOW TO</a>
         </nav>
 
-        <section class="flex gap-8 center font-bold">
+        <section class="flex gap-8 center font-bold animated rubberBand">
             <a href="#" id="contact-us" class="text-white px-7 py-3 rounded-3xl hover:text-[#C0B7E8]" style="border: 2px solid white;">CONTACT US</a>
             <a href="#"  class="join px-7 py-3 rounded-3xl" style="background-image: linear-gradient(to left, #8176AF,#C0B7E8);">JOIN HYDRA</a>
         </section>
@@ -41,7 +45,7 @@
 
     <!-- main -->
     <main class="w-[90%] m-auto flex items-center justify-between mt-9 p-2">
-        <section id="main-left" class="text-7xl font-extrabold text-white" style="line-height: 95px;">
+        <section id="main-left" class="text-7xl font-extrabold text-white animated bounceInLeft" style="line-height: 95px;">
             <h1><span id="sp" class="text-[#8176AF]" style="letter-spacing: 4px;">Dive</span> Into The Depths</h1>
             <h1>Of <span id="sp" style="letter-spacing: 4px;">Virtual Reality</span></h1>
             <p class="text-lg w-[550px] font-normal my-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -54,10 +58,8 @@
             </a>
         </section>
 
-
-
         <section id="main-right">
-            <img src="../assets/img/Mask group.png" style="filter: drop-shadow(10px 10px 15px #8176AF);" width="640px" alt="">
+            <img src="../assets/img/Mask group.png" class="animated bounceInRight" style="filter: drop-shadow(10px 10px 15px #8176AF);" width="640px" alt="">
         </section>
     </main>
 
@@ -65,7 +67,7 @@
 
     <!-- information -->
 
-    <section class="w-[90%] mt-10 flex items-center justify-around text-white m-auto h-auto p-4 py-6" style="background-image: linear-gradient(to right, #211E2E,#393354, #211E2E); border-radius: 50px;">
+    <section class="animated bounceInUp w-[90%] mt-10 flex items-center justify-around text-white m-auto h-auto p-4 py-6" style="background-image: linear-gradient(to right, #211E2E,#393354, #211E2E); border-radius: 50px;">
         <div class="center">
             <img src="../assets/img/location.png" class="mx-3" alt="">
             <span>
@@ -95,12 +97,12 @@
 
     <!-- INTRODUCTION -->
     <div class="w-[90%] m-auto my-20 p-4 text-white flex items-center justify-between">
-        <section>
-            <h2 class="font-bold text-5xl">INTRODUCTION</h2>
+        <section class="animated zoomInLeft">
+            <h2 class="font-bold text-5xl animated zoomInLeft">INTRODUCTION</h2>
             <p class="text-3xl" style="opacity: 60%;">TO HYDRA VR -></p>
         </section>
 
-        <section class="w-[55%] text-justify" style="line-height:30px;">
+        <section class="w-[55%] text-justify animated zoomInLeft" style="line-height:30px;">
             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
             nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
             quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
@@ -112,9 +114,9 @@
     <!-- about -->
     <div class="w-[90%] m-auto my-4 py-4 px-2 h-auto flex items-center justify-between">
         <section>
-            <img src="../assets/img/pexels.png" width="600px" style="border-radius: 200px 70px 200px 70px; filter: drop-shadow(10px 10px 20px #8176AF);" alt="">
+            <img src="../assets/img/pexels.png" class="animated bounceInLeft" width="600px" style="border-radius: 200px 70px 200px 70px; filter: drop-shadow(10px 10px 20px #8176AF);" alt="">
         </section>
-        <section class=" w-[58%] flex flex-col gap-10 px-2">
+        <section class=" w-[58%] flex flex-col gap-10 animated bounceInRight px-2">
             <h3 class="text-white text-5xl font-extrabold">ABOUT</h3>
             <span class="text-white text-4xl font-light" style="opacity: 70%;">HYDRA VR</span>
             <p class="text-white text-justify" style="line-height: 35px;">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
@@ -133,12 +135,12 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
      <!-- biuld -->
      <div class="w-[90%] m-auto my-20 p-4 text-white flex items-center justify-between">
-        <section>
+        <section class="animated zoomInLeft">
             <h2 class="font-bold text-5xl">WHY BIULD </h2>
             <p class="text-3xl" style="opacity: 60%;">WITH HYDRA? -></p>
         </section>
 
-        <section class="w-[55%] text-justify" style="line-height:30px;">
+        <section class="w-[55%] animated zoomInLeft text-justify" style="line-height:30px;">
             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
             nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
             quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
@@ -150,7 +152,7 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- slider -->
     <div class="slider-container swiper">
-        <div class="slide-content">
+        <div class="slide-content animated rollIn">
             <div class="card-wrapper swiper-wrapper">
 
                 <div class="card swiper-slide">
@@ -271,7 +273,7 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- TECHNOLOGIE -->
-    <div id="technology" class="w-[90%] my-5 h-[400px] m-auto center gap-4 flex-col">
+    <div id="technology" class="animated rotateInUpLeft w-[90%] my-5 h-[400px] m-auto center gap-4 flex-col">
         <h3 class="text-6xl font-extrabold text-white">TECHNOLOGIES & HARDWARE</h3>
         <span class="text-5xl text-white " style="opacity: 80%;">USED BY HYDRA VR.</span>
     </div>
@@ -279,7 +281,7 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- logos -->
-    <div id="logos-container" class="w-[90%] h-auto m-auto p-2 center gap-20 ">
+    <div id="logos-container" class="w-[90%] animated rotateInUpRight h-auto m-auto p-2 center gap-20 ">
         <img src="../assets/img/Hydra-Tech1 1.png" alt="">
         <img src="../assets/img/Hydra-Tech2 1.png" alt="">
         <img src="../assets/img/Hydra-Tech3 1.png" alt="">
@@ -289,12 +291,12 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- HOW WE BUILD -->
     <div class="w-[90%] m-auto my-20 p-4 text-white flex items-center justify-between">
-        <section>
+        <section class="animated zoomInLeft">
             <h2 class="font-bold text-5xl">HOW WE BUILD</h2>
             <p class="text-3xl" style="opacity: 60%;">WITH HYDRA VR? -></p>
         </section>
 
-        <section class="w-[55%] text-justify" style="line-height:30px;">
+        <section class="w-[55%] animated zoomInLeft text-justify" style="line-height:30px;">
             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
             nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
             quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
@@ -307,19 +309,19 @@
     <!-- sissons -->
     <!-- h-auto -->
     <section id="sessions" class="w-[90%] h-auto mb-10 py-3 my-2 m-auto flex items-center justify-around">
-        <div class="center flex-col gap-7">
+        <div class="center flex-col gap-7 animated tada">
             <p class="pr center">01</p>
             <span class="text-2xl font-bold text-white"><i class="text-[#C0B7E8]">-></i> 3D Conception & Design</span>
         </div>
-        <div class="center flex-col gap-7">
+        <div class="center flex-col gap-7 animated tada">
             <p class="pr center">02</p>
             <span class="text-2xl font-bold text-white"><i  class="text-[#C0B7E8]">-></i> Interaction Design</span>
         </div>
-        <div class="center flex-col gap-7">
+        <div class="center flex-col gap-7 animated tada">
             <p class="pr center">03</p>
             <span class="text-2xl font-bold text-white"><i  class="text-[#C0B7E8]">-></i> VR World User Testing</span>
         </div>
-        <div class="center flex-col gap-7">
+        <div class="center flex-col gap-7 animated tada">
             <p class="pr center">04</p>
             <span class="text-2xl font-bold text-white"><i  class="text-[#C0B7E8]">-></i> Hydra VR Deploy</span>
         </div>
@@ -331,13 +333,13 @@
     <!-- contact us -->
     <div id="contact-cotainer" class="bg-[#211F2E] w-[90%] my-10 py-10 m-auto p-4 h-auto center flex-col gap-8" style="border-radius: 90px;">
         <div>
-            <h3 class="text-white font-extrabold text-5xl" style="letter-spacing: 8px;">JOIN HYDRA</h3>
+            <h3 class="text-white font-extrabold text-5xl animated bounce" style="letter-spacing: 8px;">JOIN HYDRA</h3>
         </div>
-        <hr class="w-[50%] h-[1px] mx-auto" style="background-color: #C0B7E8;">
+        <hr class="w-[50%] animated bounce h-[1px] mx-auto" style="background-color: #C0B7E8;">
         <div>
-            <p class="text-white text-5xl" style="opacity: 60%;">Let’s Build Your VR Experience</p>
+            <p class="text-white text-5xl animated bounce" style="opacity: 60%;">Let’s Build Your VR Experience</p>
         </div>
-        <section class=" w-[80%] mx-auto flex-wrap center ">
+        <section class=" w-[80%] mx-auto flex-wrap center animated zoomInRight">
             <input type="text" id="name" placeholder="First Name :" class="bg-transparent px-4 py-3 w-[40%] text-white mx-3 my-5 h-[70px]" style="border: 2px solid #C0B7E8; border-radius: 40px; font-size: 18px;">
             <input type="text" id="family" placeholder="Last Name :" class="bg-transparent px-4 py-3 w-[40%] text-white  mx-3 my-5 h-[70px]" style="border: 2px solid #C0B7E8; border-radius: 40px; font-size: 18px;">
             <input type="email" id="email" placeholder="Email :" class="bg-transparent px-4 py-3 w-[40%] text-white  mx-3 my-5 h-[70px]" style="border: 2px solid #C0B7E8; border-radius: 40px; font-size: 18px;">
@@ -351,18 +353,18 @@
     <!-- footer -->
 
     <footer class="w-[90%] font-bold mx-auto text-white px-2 py-5 center gap-20">
-        <section id="sec1">
+        <section id="sec1" class="animated bounceInLeft">
             <img src="../assets/img/Vector.png" alt="">
         </section>
         <span class="h-[90px] w-[2px] bg-[#C0B7E8] my-auto"></span>
-        <section id="sec2" class="center flex-col gap-4">
+        <section id="sec2" class="animated bounceInLeft center flex-col gap-4">
             <a href="#">ABOUT</a>
             <a href="#">SERVICES</a>
             <a href="#">TECHNOLOGIES</a>
             <a href="#">JOIN HYDRA</a>
         </section>
         <span class="h-[90px] w-[2px] bg-[#C0B7E8] my-auto"></span>
-        <section id="sec3"  class="center flex-col gap-4">
+        <section id="sec3"  class=" animated bounceInLeft center flex-col gap-4">
             <a href="#">F.A.Q</a>
             <a href="#">SITEMAP</a>
             <a href="#">CONDITIONS</a>
@@ -370,28 +372,28 @@
         </section>
         <span class="h-[90px] w-[2px] bg-[#C0B7E8] my-auto"></span>
         <section id="sec4"  class="center gap-6 flex-col">
-            <p>SOCIALIZE WITH HYDRA</p>
+            <p class="bounceInUp">SOCIALIZE WITH HYDRA</p>
             <div id="icons-footer" class="center gap-2">
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img src="../assets/img/social-media/facebook.png" alt="">
                 </a>
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img src="../assets/img/social-media/twitter.png" alt="">
                 </a>
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img src="../assets/img/social-media/linkedin.png" alt="">
                 </a>
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img  src="../assets/img/social-media/youtube.png" alt="">
                 </a>
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img  src="../assets/img/social-media/instagram.png" alt="">
                 </a>
-                <a href="#" class="ico">
+                <a href="#" class="ico animated bounceInUp">
                     <img  src="../assets/img/social-media/pinterest.png" alt="">
                 </a>
             </div>
-            <a href="#" class="text-black px-8 py-5 text-sm" style="background-image: linear-gradient(to right, #8176AF,#C0B7E8); border-radius: 30px;">BUILD YOUR WORLD</a>
+            <a href="#" class="text-black px-8 py-5 text-sm animated bounceInDown" style="background-image: linear-gradient(to right, #8176AF,#C0B7E8); border-radius: 30px;">BUILD YOUR WORLD</a>
         </section>
     </footer>
 
@@ -399,7 +401,7 @@
 
     <hr width="80%" class="mx-auto h-[1px] my-10" style="background-color: #C0B7E8;">
     <div class="center mb-10">
-        <span class="text-white font-bold " style="letter-spacing: 8px;">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </span>
+        <span class="text-white font-bold animated bounceInUp " style="letter-spacing: 8px;">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </span>
     </div>
     
     <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->

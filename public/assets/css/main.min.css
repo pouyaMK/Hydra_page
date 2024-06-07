@@ -688,6 +688,18 @@ nav:hover > a:not(:hover){
   scale: 1.1;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -889,6 +901,10 @@ nav:hover > a:not(:hover){
   border-radius: 1.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -914,6 +930,15 @@ nav:hover > a:not(:hover){
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#302C42\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 44 66 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -977,6 +1002,15 @@ nav:hover > a:not(:hover){
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-justify {
