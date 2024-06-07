@@ -688,10 +688,6 @@ nav:hover > a:not(:hover){
   scale: 1.1;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .sticky {
   position: sticky;
 }
@@ -749,6 +745,11 @@ nav:hover > a:not(:hover){
   margin-bottom: auto;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -763,6 +764,10 @@ nav:hover > a:not(:hover){
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[1px\] {
@@ -791,6 +796,10 @@ nav:hover > a:not(:hover){
 
 .h-auto {
   height: auto;
+}
+
+.h-\[1\.5px\] {
+  height: 1.5px;
 }
 
 .w-\[220px\] {
@@ -914,6 +923,11 @@ nav:hover > a:not(:hover){
   background-color: rgb(33 31 46 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#302C42\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 44 66 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#8176AF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(129 118 175 / var(--tw-bg-opacity));
@@ -930,15 +944,6 @@ nav:hover > a:not(:hover){
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#302C42\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 44 66 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -984,6 +989,11 @@ nav:hover > a:not(:hover){
   padding-bottom: 2.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1002,11 +1012,6 @@ nav:hover > a:not(:hover){
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pt-2 {
