@@ -692,16 +692,8 @@ nav:hover > a:not(:hover){
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .sticky {
   position: sticky;
-}
-
-.right-16 {
-  right: 4rem;
 }
 
 .top-0 {
@@ -830,10 +822,6 @@ nav:hover > a:not(:hover){
   width: 40%;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
 .w-\[50\%\] {
   width: 50%;
 }
@@ -960,11 +948,6 @@ nav:hover > a:not(:hover){
 
 .bg-\[--purple\] {
   background-color: var(--purple);
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
