@@ -138,7 +138,17 @@
     #about {
         flex-direction: column;
         height: auto !important;
-        gap: 15px;
+        gap: 10px;
+    }
+
+ }
+
+ @media screen and (max-width:724px) {
+    #sec-about{
+        width: 90% !important;
+    }
+    #about-h3{
+        margin-top: 50px;
     }
 
  }
